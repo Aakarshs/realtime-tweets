@@ -8,6 +8,9 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "express-favicon": "^2.0.1",
+    "path": "^0.12.7",
     "react": "^16.13.1",
     "react-charts": "^2.0.0-beta.6",
     "react-circular-progressbar": "^2.0.3",
@@ -16,7 +19,7 @@
     "twitter": "^1.7.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
